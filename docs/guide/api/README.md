@@ -15,6 +15,6 @@
 ## api服务申请指南
 具体的api服务申请流程可以参考以下内容:
 
-- [百度翻译](/guide/api/baidu)
-- [彩云小译](/guide/api/caiyun)
-- [ChatGPT](/guide/api/chatgpt)
+- [百度翻译](/guide/api/baidu.html)
+- [彩云小译](/guide/api/caiyun.html)
+- [ChatGPT](/guide/api/chatgpt.html)
