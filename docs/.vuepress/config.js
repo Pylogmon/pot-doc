@@ -34,5 +34,17 @@ module.exports = {
                 ]
             }
         ]
-    }
+    },
+    plugins: {
+        '@vssue/vuepress-plugin-vssue': {
+            // 设置 `platform` 而不是 `api`
+            platform: 'github',
+
+            // 其他的 Vssue 配置
+            owner: 'Pylogmon',
+            repo: 'pot-doc',
+            clientId: 'be5aa203f63bad46b22a',
+            clientSecret: process.env.CLIENT_SECRET || '',
+        },
+    },
 }
