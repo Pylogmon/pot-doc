@@ -13,23 +13,24 @@ module.exports = {
         sidebar: [
             {
                 title: '指南',
+                path: '/guide/',
                 collapsable: false,
                 sidebarDepth: 1,
                 children: [
                     '/guide/',
                     '/guide/install',
                     '/guide/config',
-                    {
-                        title: 'API服务申请',
-                        path: '/guide/api/',
-                        collapsable: false,
-                        sidebarDepth: 1,
-                        children: [
-                            '/guide/api/baidu',
-                            '/guide/api/chatgpt',
-                            '/guide/api/caiyun',
-                        ]
-                    }
+                ]
+            },
+            {
+                title: 'API服务申请',
+                path: '/guide/api/',
+                collapsable: false,
+                sidebarDepth: 1,
+                children: [
+                    '/guide/api/baidu',
+                    '/guide/api/chatgpt',
+                    '/guide/api/caiyun',
                 ]
             }
         ]
