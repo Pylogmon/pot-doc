@@ -6,6 +6,7 @@ module.exports = {
         nav: [
             { text: '主页', link: '/' },
             { text: '指南', link: '/guide/' },
+            { text: '软件下载', link: 'https://github.com/Pylogmon/pot/releases' },
             { text: 'Github', link: 'https://github.com/Pylogmon/pot' },
         ],
         smoothScroll: true,
