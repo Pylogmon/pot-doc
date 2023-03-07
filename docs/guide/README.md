@@ -30,4 +30,4 @@
 - [Bob](https://github.com/ripperhe/Bob) 灵感来源
 - [bob-plugin-openai-translator](https://github.com/yetone/bob-plugin-openai-translator) ChatGPT接口参考
 - [@uiYzzi](https://github.com/uiYzzi) 提供实现思路
-- [Tauri](https://github.com/tauri-apps/tauri) 提供好用的开发框架
+- [Tauri](https://github.com/tauri-apps/tauri) 好用的Gui框架
