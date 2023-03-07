@@ -32,4 +32,4 @@
 - [@uiYzzi](https://github.com/uiYzzi) 提供实现思路
 - [Tauri](https://github.com/tauri-apps/tauri) 好用的Gui框架
 
-<Vssue :title="$title" />
+<Vssue :title="$title" :options="{ locale: 'zh' }"/>

@@ -31,3 +31,5 @@
 
 ### 第四步：在pot中填写百度翻译 APPID 和 密钥
 打开百度翻译开放平台控制台 [https://fanyi-api.baidu.com/api/trans/product/desktop](https://fanyi-api.baidu.com/api/trans/product/desktop)，将页面最底部的「APP ID」和「密钥」填写进pot的【设置页】-【接口设置】-【百度翻译Appid】和【百度翻译密钥】中。
+
+<Vssue :title="$title" :options="{ locale: 'zh' }"/>

@@ -38,3 +38,5 @@ pnpm tauri build # 编译打包
 ```
 4. 安装
 编译完成之后，可以在`src-tauri/target/Release/bundle`目录下找到队友平台的安装包
+
+<Vssue :title="$title" :options="{ locale: 'zh' }"/>
