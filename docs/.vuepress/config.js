@@ -1,5 +1,6 @@
 import { defaultTheme } from 'vuepress'
 import { commentPlugin } from "vuepress-plugin-comment2";
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export default {
     title: 'pot | 一个跨平台划词翻译软件',
@@ -50,6 +51,9 @@ export default {
             categoryId: "DIC_kwDOJCp3W84CUrQM", //对应自己的分类Id
             darkTheme: "dark",
             lightTheme: "light"
+        }),
+        searchPlugin({
+            // 配置项
         }),
     ],
 }
