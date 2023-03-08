@@ -10,7 +10,8 @@
 
 直接输入快捷键名称即可
 
-格式：[Key1]+[Key2]+[Key3]...
+格式：[Key1]+[Key2]+[Key3]
+
 如：Ctrl+D，Ctrl+Shift+D
 
 ## 设置无效
