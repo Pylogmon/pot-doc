@@ -3,8 +3,13 @@ home: true
 heroImage: /icon.png
 heroText: pot
 tagline: 一个跨平台划词翻译软件
-actionText: 快速上手 →
-actionLink: /guide/
+actions:
+  - text: 快速上手
+    link: /guide/
+    type: primary
+  - text: Github
+    link: https://github.com/Pylogmon/pot
+    type: secondary
 features:
 - title: 划词翻译
   details: 鼠标选词，快捷键即刻翻译！
