@@ -47,7 +47,9 @@ export default {
             repo: "Pylogmon/pot", //远程仓库
             repoId: "R_kgDOJCp3Ww", //对应自己的仓库Id
             category: "Announcements",
-            categoryId: "DIC_kwDOJCp3W84CUrQM" //对应自己的分类Id
+            categoryId: "DIC_kwDOJCp3W84CUrQM", //对应自己的分类Id
+            darkTheme: "dark",
+            lightTheme: "light"
         }),
     ],
 }
