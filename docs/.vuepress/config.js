@@ -18,26 +18,22 @@ export default {
         sidebar: [
             {
                 text: '指南',
-                link: '/guide/',
-                collapsable: false,
-                sidebarDepth: 1,
                 children: [
                     '/guide/',
                     '/guide/install',
                     '/guide/config',
+                    {
+                        text: 'API服务申请',
+                        link: '/guide/api/',
+                        children: [
+                            '/guide/api/baidu',
+                            '/guide/api/chatgpt',
+                            '/guide/api/caiyun',
+                        ]
+                    }
                 ]
             },
-            {
-                text: 'API服务申请',
-                link: '/guide/api/',
-                collapsable: false,
-                sidebarDepth: 1,
-                children: [
-                    '/guide/api/baidu',
-                    '/guide/api/chatgpt',
-                    '/guide/api/caiyun',
-                ]
-            }
+
         ]
     }),
     plugins: [
