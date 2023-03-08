@@ -29,6 +29,7 @@ export default {
                             '/guide/api/baidu',
                             '/guide/api/chatgpt',
                             '/guide/api/caiyun',
+                            '/guide/api/tencent'
                         ]
                     }
                 ]

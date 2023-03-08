@@ -21,6 +21,7 @@
 - ChatGPT(需要申请[API服务](/guide/api/chatgpt.html) 0.002$/1000token)
 - 百度翻译(需要申请[API服务](/guide/api/baidu.html) 每月免费额度100万字符)
 - 彩云小译(需要申请[API服务](/guide/api/caiyun.html) 每月免费额度100万字符)
+- 腾讯翻译君(需要申请[API服务](/guide/api/tencent.html) 每月免费额度500万字符)
 - 持续更新中...
 
 > 由于使用api产生的费用本作者概不负责
