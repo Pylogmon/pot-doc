@@ -18,7 +18,7 @@
 
 ## 支持接口
 - 有道翻译(无需申请)
-- ChatGPT(需要申请[API服务](/guide/api/chatgpt.html) 0.002$/1000token)
+- OpenAI(需要申请[API服务](/guide/api/openai.html) 0.002$/1000token)
 - 百度翻译(需要申请[API服务](/guide/api/baidu.html) 每月免费额度100万字符)
 - 彩云小译(需要申请[API服务](/guide/api/caiyun.html) 每月免费额度100万字符)
 - 腾讯翻译君(需要申请[API服务](/guide/api/tencent.html) 每月免费额度500万字符)
@@ -29,7 +29,7 @@
 ## 感谢
 
 - [Bob](https://github.com/ripperhe/Bob) 灵感来源
-- [bob-plugin-openai-translator](https://github.com/yetone/bob-plugin-openai-translator) ChatGPT接口参考
+- [bob-plugin-openai-translator](https://github.com/yetone/bob-plugin-openai-translator) OpenAI接口参考
 - [@uiYzzi](https://github.com/uiYzzi) 提供实现思路
 - [Tauri](https://github.com/tauri-apps/tauri) 好用的Gui框架
 

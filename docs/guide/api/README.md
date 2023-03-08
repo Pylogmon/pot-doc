@@ -17,6 +17,7 @@
 
 - [百度翻译](/guide/api/baidu.html)
 - [彩云小译](/guide/api/caiyun.html)
-- [ChatGPT](/guide/api/chatgpt.html)
+- [OpenAI](/guide/api/openai.html)
+- [腾讯翻译君](/guide/api/tencent.html)
 
 <CommentService />

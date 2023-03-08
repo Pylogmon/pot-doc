@@ -27,7 +27,7 @@ export default {
                         link: '/guide/api/',
                         children: [
                             '/guide/api/baidu',
-                            '/guide/api/chatgpt',
+                            '/guide/api/openai',
                             '/guide/api/caiyun',
                             '/guide/api/tencent'
                         ]
