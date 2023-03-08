@@ -59,4 +59,9 @@
 ### 第四步：将密钥填写进pot当中
 将刚才创建的【SecretId】和【SecretKey】填写进pot的【设置页】-【接口设置】-【腾讯翻译君密钥ID】和【腾讯翻译君密钥值】即可。
 
+## 相关链接
+[腾讯云机器翻译服务介绍](https://curl.qcloud.com/Ykn2htRP)
+
+[腾讯云机器翻译服务定价文档](https://curl.qcloud.com/JAXtzpXl)
+
 <CommentService />
