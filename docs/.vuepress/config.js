@@ -1,9 +1,13 @@
-module.exports = {
+import { defaultTheme } from 'vuepress'
+import { commentPlugin } from "vuepress-plugin-comment2";
+
+export default {
     title: 'pot | 一个跨平台划词翻译软件',
     description: '一个跨平台划词翻译软件',
-    themeConfig: {
+    theme: defaultTheme({
+        // 默认主题配置
         logo: '/icon.png',
-        nav: [
+        navbar: [
             { text: '主页', link: '/' },
             { text: '指南', link: '/guide/' },
             { text: '软件下载', link: 'https://github.com/Pylogmon/pot/releases' },
@@ -12,8 +16,8 @@ module.exports = {
         smoothScroll: true,
         sidebar: [
             {
-                title: '指南',
-                path: '/guide/',
+                text: '指南',
+                link: '/guide/',
                 collapsable: false,
                 sidebarDepth: 1,
                 children: [
@@ -23,8 +27,8 @@ module.exports = {
                 ]
             },
             {
-                title: 'API服务申请',
-                path: '/guide/api/',
+                text: 'API服务申请',
+                link: '/guide/api/',
                 collapsable: false,
                 sidebarDepth: 1,
                 children: [
@@ -34,17 +38,16 @@ module.exports = {
                 ]
             }
         ]
-    },
-    plugins: {
-        '@vssue/vuepress-plugin-vssue': {
-            // 设置 `platform` 而不是 `api`
-            platform: 'github',
-
-            // 其他的 Vssue 配置
-            owner: 'Pylogmon',
-            repo: 'pot-doc',
-            clientId: 'be5aa203f63bad46b22a',
-            clientSecret: process.env.CLIENT_SECRET || '',
-        },
-    },
+    }),
+    plugins: [
+        commentPlugin({
+            // 插件选项
+            provider: "Giscus", //评论服务提供者。
+            comment: true, //启用评论功能
+            repo: "Pylogmon/pot", //远程仓库
+            repoId: "R_kgDOJCp3Ww", //对应自己的仓库Id
+            category: "Announcements",
+            categoryId: "DIC_kwDOJCp3W84CUrQM" //对应自己的分类Id
+        }),
+    ],
 }

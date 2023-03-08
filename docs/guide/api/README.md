@@ -19,4 +19,4 @@
 - [彩云小译](/guide/api/caiyun.html)
 - [ChatGPT](/guide/api/chatgpt.html)
 
-<Vssue :title="$title" :options="{ locale: 'zh' }"/>
+<CommentService />
