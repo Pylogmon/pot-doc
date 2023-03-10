@@ -29,7 +29,8 @@ export default {
                             '/guide/api/baidu',
                             '/guide/api/openai',
                             '/guide/api/caiyun',
-                            '/guide/api/tencent'
+                            '/guide/api/tencent',
+                            '/guide/api/volcengine'
                         ]
                     }
                 ]

@@ -19,5 +19,6 @@
 - [彩云小译](/guide/api/caiyun.html)
 - [OpenAI](/guide/api/openai.html)
 - [腾讯翻译君](/guide/api/tencent.html)
+- [火山翻译](/guide/api/volcengine.html)
 
 <CommentService />
