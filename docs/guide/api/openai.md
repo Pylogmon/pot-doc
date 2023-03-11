@@ -19,6 +19,13 @@ OpenAI API（gpt-3.5-turbo）一次性提供 5 美元的免费额度，而它的
 ### 第三步：在pot中填写 OpenAI 的 Secret Key
 将 Secret Key 填写进pot的【设置页】-【接口设置】-【Open AI ApiKey】即可。
 
+## 关于Open AI api连接不上的解决方案
+
+### 方法1：通过Cloudflare反向代理
+参考 [使用 Cloudflare Workers 解决 OpenAI 和 ChatGPT 的 API 无法访问的问题](https://github.com/noobnooc/noobnooc/discussions/9)
+
+### 方法2：待补充
+
 ## 相关链接
 [OpenAI 开放平台](https://platform.openai.com/) 
 
