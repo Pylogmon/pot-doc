@@ -24,6 +24,8 @@ OpenAI API（gpt-3.5-turbo）一次性提供 5 美元的免费额度，而它的
 ### 方法1：通过Cloudflare反向代理
 参考 [使用 Cloudflare Workers 解决 OpenAI 和 ChatGPT 的 API 无法访问的问题](https://github.com/noobnooc/noobnooc/discussions/9)
 
+pot 已经提供了自定义域名的设置，在设置中填写你自己的域名即可。
+
 ### 方法2：待补充
 
 ## 相关链接
